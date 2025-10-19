@@ -1,0 +1,5 @@
+commands:
+  - command: "plugman reload MyPlugin"
+    interval: 300
+  - command: "say Сервер делает автосейв!"
+    interval: 600

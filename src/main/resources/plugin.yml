@@ -1,0 +1,15 @@
+name: SoldinCmds
+main: com.soldin.soldincmds.SoldinCmds
+version: 1.0
+api-version: 1.16
+author: Soldin
+description: Плагин для выполнения команд с заданным интервалом.
+commands:
+  soldincmds:
+    description: Команда управления плагином SoldinCmds
+    usage: /soldincmds reload
+    permission: soldincmds.reload
+permissions:
+  soldincmds.reload:
+    description: Позволяет перезагружать конфиг плагина
+    default: op
